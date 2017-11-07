@@ -5,7 +5,7 @@ class Hash
     result = []
     map do |key, value|
       # binding.pry
-      if value == arguments
+      if value.include?(arguments)
         result << key
       end
     end
