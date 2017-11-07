@@ -5,7 +5,7 @@ class Hash
     result = []
     each do |key, value|
       # binding.pry
-      if value.include?(value)
+      if arguments.include?(value)
         result << key
       end
     end
